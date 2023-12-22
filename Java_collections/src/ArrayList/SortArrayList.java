@@ -1,0 +1,39 @@
+//How to Sort ArrayList
+package ArrayList;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class SortArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String>list1=new ArrayList();
+		list1.add("Mango");
+		list1.add("Apple");
+		list1.add("Banana");
+		list1.add("Grapes");
+		  //Sorting the list  
+		  Collections.sort(list1);  
+		   //Traversing list through the for-each loop  
+		  for(String fruit:list1)  
+		    System.out.println(fruit);  
+		
+		  System.out.println("Sorting numbers...");  
+		  //Creating a list of numbers 
+		  
+		  List<Integer>list2=new ArrayList();
+		  list2.add(21);  
+		  list2.add(11);  
+		  list2.add(51);  
+		  list2.add(1); 
+		  
+		  Collections.sort(list2);  
+		   //Traversing list through the for-each loop  
+		  for(Integer number:list2)  
+		    System.out.println(number); 
+		  
+	}
+
+}
