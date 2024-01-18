@@ -41,7 +41,7 @@ public class TreeMapExample_Book {
 		for(Entry<Integer, Book> entry:list.entrySet()) {
 			int key=entry.getKey();
 			Book b=entry.getValue();
-			System.out.println(key+"Details");
+			System.out.println(key+" "+"Details");
 			System.out.println(b.id+" "+b.name+" "+b.author+" "+b.publisher+" "+b.quantity);
 		}
 		
