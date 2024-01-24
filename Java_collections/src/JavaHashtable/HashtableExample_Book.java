@@ -43,6 +43,12 @@ public class HashtableExample_Book {
 					System.out.println(key+" "+"Details");
 					System.out.println(b.id+" "+b.name+" "+b.author+" "+b.publisher+" "+b.quantity);
 				}
+				
+				 int a=20;
+				 int b;
+				 int c=(a++  - --a + ++a );
+				//  
+				 System.out.println(c);
 	}
 
 }
