@@ -19,6 +19,12 @@ public class Main {
 		
 		GoodMorningGreeting goodMorningGreeting = new GoodMorningGreeting();
 		goodMorningGreeting.printMessage();
+
+		//Implementing Lambda
+		Greeting gdAfternoongrGreeting = () -> System.out.println("Good Afternoon");
+		gdAfternoongrGreeting.printMessage();
+		
+		
 	}
 
 }
